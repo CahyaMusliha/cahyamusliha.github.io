@@ -1,0 +1,66 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV Saya</title>
+    <link rel="stylesheet" href="css-cahya.css">
+</head>
+<body>
+    <div class="semuanya">
+    	<div class="atas">
+  
+    	</div>
+        <div class="oke" align="center">
+            <span class="ndut" id="ndut_2">Kontak</span>
+        	<span class="ndut aktif" id="ndut_1">Profile Saya</span>
+        	<span class="ndut" id="ndut_3">Tugas</span>
+        	<span href="#" class="tombol" class="ndut" id="ndut_3"></span>
+			<div class="hihi-bawah">
+        	<div class="hihi">
+        </div></div>
+        </div>
+
+        <div class="hehe" id="bagan_1" style="text-align: center;">
+        	<h2 class="up">Profile Saya</h2>	
+            <section style="font-size: 25px;">
+        	<p>My name is CAHYA MUSLIHA</p><p>NIM: 43210029</p><p>Prodi: Sistem Informasi</p>
+        	<img src="Cahya.jpg" style="width: 50%">
+            </section> 
+        	</ul>
+        	<span class="sip"></span>
+        </div>
+
+        <div class="kontak" id="bagan_2" style="display: none;">
+            <br>
+            <h2 class="up" style="text-align: center;">Kontak</h2>
+            <p>Silahkan Hubungi:</p>
+            <ul>
+                <li >Instagram: <a href="https://instagram.com/Cahya_musliha">@Cahya_musliha</a>.</li>
+                <li>Email: <a href="mailto:cahyamusliha9@gmail.com">cahyamusliha9@gmail.com</a>.</li>
+                <li>No.Telp: <a href="https://scholar.google.com/citations?user=2hCXoSkAAAAJ&hl=en&oi=ao">089532875408</a></li>
+
+            </ul>
+        </div>
+        <div class="bagan" id="bagan_3" style="display: none;">
+            <br>
+            <h2 class="up">Tugas</h2>
+            <p>Project</p>
+            <ul>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p03/tabel.html">P03 HTML Table Sederhana</a></li>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p03css/tabel-2.html">P03 HTML Table CSS</a></li>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p03form-lv1/p03form-lv1">P03 HTML Table JQuery Challenge</a></li>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p03jquery/tabel-3.html">P03 Formulir Level #1 Basic HTML Form</a></li>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p04css-basic/from.html">P04 Formulir Level #2 Basic-CSS HTML Form</a></li>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p04-static-kop-surat/index.html">P04 Kop Surat Static using CSS</a></li>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p05-jquery-sliding/index.html">P05 JQuery Sliding</a></li>
+                <li><a onclick="alert('Silahkan Klik OK')" href="../p06-spa-menu/index.html">P06 JQuery Add/Remove Class for SPA Menu</a></li>
+
+            </ul>
+        </div>
+        
+       
+        	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jschy.js"></script>
+
+
+</body></html>

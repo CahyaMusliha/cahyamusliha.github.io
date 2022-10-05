@@ -1,0 +1,62 @@
+html{
+    background-color: lightpink;
+    font-family: Times New Roman; , sans-serif;
+}
+hr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.klik{
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.klik:hover{
+    background-color: #purple;
+}
+
+th{
+    text-align: left;
+}
+
+.aku{
+    font-family: Times New Roman, sans-serif;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.taehyung-from{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cuk-kop{
+    margin-bottom: 28px;
+}
+
+.awan-kop{
+    align-content: center;
+} 
+
+input[type=text], select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    max-width: 600px;
+}
+

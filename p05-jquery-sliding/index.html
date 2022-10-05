@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Sliding</title>
+ 
+</head>
+<style>
+    img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 4px black;
+    padding: 10px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+.cat{
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 30px;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 10px 16px 0px rgb(0 0 0 / 20%);
+    background-color: lightgray;
+}
+.nama{
+    font-family: Arial;
+    font-size: 25px;
+    cursor: pointer;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    cursor: pointer;
+}
+body{
+    display: block;
+    margin: 8px;
+    background-color: lightseagreen;
+}
+.aku-cantik{
+    margin: 8px 15px;
+}
+.michu{
+    box-shadow: 5px 10px 16px 0px rgb(0 0 0 / 20%);
+    background-color: rgb(196, 183, 183);
+}
+</style>
+<body>
+    <div class="aku-cantik">
+        <div align= "center" class="cat">My Profile!</div>
+            <div class="michu">
+                <br>
+                <img src="Cahya.jpg">
+                <h2 align="center" class="nama">Cahya Musliha</h2>
+                <p align="center">Annyeong, Saya Cahya Musliha, Saya Mahasiswi Ikmi Semester 3, Prodi Sistem Informasi. Terimakasih. Annyeong <br><br><br></p>
+
+        </div>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function(){
+    $(".cat").click(function(){
+        $(".michu").slideToggle("slow");
+    });
+});
+    </script>
+</body>
+</html>

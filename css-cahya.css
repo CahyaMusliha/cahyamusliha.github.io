@@ -1,0 +1,128 @@
+body{
+	background-color: floralwhite;
+}
+
+span{
+	align-content: center;
+}
+img{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 10%;
+	box-shadow: 1px 1px 4px gray;
+	padding: 3px;
+	transition: 0.5s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+h2{
+	margin: auto;
+}
+
+h2:hover{
+	letter-spacing: 3px;
+}
+
+a{
+	color: navy;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover{
+	text-decoration: underline;
+	letter-spacing: 1px;
+}
+.semuanya{
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+.atas{
+	background-color: yellowgreen;
+	padding: 5px 10px 20px;
+	text-align: center;
+	border: 1px red;
+	border-radius: 5px 5px 0 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.oke{
+    	background-color: pink;
+    	padding: 15px 0;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.ndut{
+	margin: 0;
+	padding: 15px;
+    	color: white;
+    	border: none;
+    	border-radius: 4px;
+    	cursor: pointer;
+    	font-size: 16px;
+    	font-weight: bold;
+    	transition: 0.5s;
+}
+
+.ndut:hover{
+	background-color: deeppink;
+}
+.aktif{
+	background-color: deeppink;
+}
+
+.tombol {
+    color: white;
+    border: none;
+    pointer-events: none; 
+      cursor: default;
+    
+}
+.hihi-bawah {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.hihi-bawah a {
+	font-family: "Helvetica", sans-serif;
+    color: blue;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.hihi:hover .hihi-bawah {
+    display: block;
+}
+.hehe{
+	background-color: whitesmoke;
+	padding: 20px;
+	border-left: 1px navy;
+	border-right: 1px navy;
+   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.up{
+	margin: 0 0 3px;
+	transition: 0.5s;
+	font-size: 40px;
+	font-weight: bold;
+}
+.sip{
+	width: 10px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid navy;
+	transition-duration: 0.2s;
+}
+
+@media only screen and (max-width: 800px){
+	.semuanya{
+		width: 100%;
+	}
+}
