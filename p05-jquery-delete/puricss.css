@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: greenyellow;
+    font-family: 'Arial', sans-serif;
+
+}
+
+td{
+    background-color: yellowgreen;
+    text-align: center;
+} 
+
+td:hover{
+    background-color: whitesmoke;
+}
+td, th{
+    border: 1px solid ;
+    color: black;
+    padding: 8px;
+}
+
+th{
+    background-color: lightpink;
+}
+
+p, h2{
+    color: black;
+}
+
+.akas{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.akas-sekali{
+    background-color: hotpink;
+}
